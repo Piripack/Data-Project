@@ -1,0 +1,25 @@
+{
+  "timestamp": "2024-12-19 11:59:48",
+  "results": {
+    "passed": [
+      "Dependencies",
+      "Visualization"
+    ],
+    "failed": [
+      "Project Structure - Error: Missing files: app.py, requirements.txt, README.md, web_app/templates/index.html, web_app/templates/login.html, web_app/static/css/style.css, web_app/static/js/main.js, src/models/user.py, src/utils/database.py, src/data_processing/data_cleaner.py, src/data_processing/feature_engineering.py, src/visualization/dashboard.py",
+      "Database Structure - Error: Database error: unable to open database file",
+      "Server Response - Error: Missing time display",
+      "UI Elements - Error: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".text-white\"}\n  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n\tGetHandleVerifier [0x00007FF7F1B4FB05+28789]\n\t(No symbol) [0x00007FF7F1AB86E0]\n\t(No symbol) [0x00007FF7F195592A]\n\t(No symbol) [0x00007FF7F19A930E]\n\t(No symbol) [0x00007FF7F19A95FC]\n\t(No symbol) [0x00007FF7F19F28A7]\n\t(No symbol) [0x00007FF7F19CF47F]\n\t(No symbol) [0x00007FF7F19EF654]\n\t(No symbol) [0x00007FF7F19CF1E3]\n\t(No symbol) [0x00007FF7F199A938]\n\t(No symbol) [0x00007FF7F199BAA1]\n\tGetHandleVerifier [0x00007FF7F1E8933D+3410093]\n\tGetHandleVerifier [0x00007FF7F1E9E7DD+3497293]\n\tGetHandleVerifier [0x00007FF7F1E92A73+3448803]\n\tGetHandleVerifier [0x00007FF7F1C17BBB+848171]\n\t(No symbol) [0x00007FF7F1AC3C3F]\n\t(No symbol) [0x00007FF7F1ABF6E4]\n\t(No symbol) [0x00007FF7F1ABF87D]\n\t(No symbol) [0x00007FF7F1AAED49]\n\tBaseThreadInitThunk [0x00007FFE0655E8D7+23]\n\tRtlUserThreadStart [0x00007FFE0707FBCC+44]\n",
+      "Data Processing - Error: Data processing error: DataCleaner.__init__() missing 1 required positional argument: 'database'"
+    ],
+    "skipped": [],
+    "warnings": []
+  },
+  "summary": {
+    "total": 7,
+    "passed": 2,
+    "failed": 5,
+    "skipped": 0,
+    "warnings": 0
+  }
+}
